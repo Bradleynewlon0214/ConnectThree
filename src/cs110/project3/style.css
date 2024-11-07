@@ -1,0 +1,22 @@
+.pane {
+	-fx-background-color: #FFFFFF;
+	-fx-font-family: sans-serif;
+}
+
+.cell-none, .cell-playerx, .cell-playero, .cell-hidden {
+	-fx-background-color: #DDDDDD;
+}
+
+.cell-playerx, .cell-playerx > .label {
+	-fx-background-color: #FDDA24;
+	-fx-text-fill: #4B3D2A;
+}
+
+.cell-playero, .cell-playero > .label {
+	-fx-background-color: #9BD3DD;
+	-fx-text-fill: #0D5257;
+}
+
+.cell-fade {
+	-fx-opacity: 25%;
+}
